@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yh.mohudaily.module.NewsContentActivity">
+
+    <item
+        android:id="@+id/menu_action_fav"
+        android:title=""
+        android:orderInCategory="2"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_action_comment"
+        android:title=""
+        android:orderInCategory="3"
+        android:icon="@drawable/comment"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_action_comment_num"
+        android:title=""
+        android:orderInCategory="4"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_action_parise"
+        android:title=""
+        android:orderInCategory="5"
+        android:icon="@drawable/praise"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_action_parise_num"
+        android:title=""
+        android:visible="false"
+        android:orderInCategory="6"
+        app:showAsAction="always"/>
+</menu>
